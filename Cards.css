@@ -1,0 +1,73 @@
+.card1 {
+    box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 336px;
+    padding:8px;
+    }
+.card2 {
+    box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 336px;
+    padding:8px;
+}
+img {
+    width: 320px;
+    height:210px;
+    border-radius: 5px
+}
+.A1 {
+  text-align:right;
+  padding: 2px;
+}
+.A2 {
+  text-align:left;
+  padding: 2px;
+}
+p {
+  font-size: 0.875rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+h3 {
+  font-size: 1.25rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.card1:hover {
+    box-shadow: 8px 8px 8px 0 rgba(0,0,0,0.2);
+}
+.card2:hover {
+    box-shadow: 8px 8px 8px 0 rgba(0,0,0,0.2);
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: space-between;
+    align-items: baseline;
+    }
+
+.flex-item1:nth-child(1) {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: baseline;
+    }
+
+.flex-item2:nth-child(2) {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: baseline;
+    }
+.card1 {
+  padding:10px;
+}
+.card2 {
+  padding:10px;
+}
